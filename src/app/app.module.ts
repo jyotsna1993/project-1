@@ -6,11 +6,13 @@ import { Component1Component } from './component1/component1.component';
 import { DetailService } from './detail.service';
 import { Component2Component } from './component2/component2.component';
 import { HttpClientModule } from '@angular/common/http';
+import { Component3Component } from './component3/component3.component';
 @NgModule({
   declarations: [
     AppComponent,
     Component1Component,
-    Component2Component
+    Component2Component,
+    Component3Component
   ],
   imports: [
     BrowserModule,
